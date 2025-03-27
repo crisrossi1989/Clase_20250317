@@ -7,8 +7,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Clase_20250317
 {
-    internal class Ejercicios
-    {/*
+    internal class Ejercicio0
+    {
         public void DeclararVariables() // Procedimiento (PascalCase se usa para Estructuras)
         {
             // Sentencias. Acá voy a declarar 3 variables
@@ -51,41 +51,5 @@ namespace Clase_20250317
 
             Console.WriteLine("Su nombre es " + nombrePersona + ", su apellido es " + apellidoPersona + " y su edad es " + edadPersona + ".");
         }
-        */
-        //EJERCICIOS GUIA DE PRÁCTICA (GUÍA 1: EJERCICIOS 1 AL 8)
-
-        // 1)	Realizar un procedimiento que muestre el mensaje “Hola Mundo”.
-        public void HolaMundo()
-        {
-            Console.WriteLine("Hola Mundo");
-        }
-        // 2)	Realizar un procedimiento que muestre en la consola su nombre - edad - país, y otro que se los pida como ingreso al usuario y luego los muestre.
-        public void MostrarDatos()
-        {
-            string nombrePersona = "Cristian";
-            byte edadPersona = 35;
-            string paisPersona = "Argentina";
-            
-            Console.WriteLine("su nombre es: " + nombrePersona + ", su edad es: " + edadPersona + ", y su pais es: " + paisPersona + ".");
-        }
-        public void IngresarDatos()
-        {
-            string nombrePersona;
-            byte edadPersona;
-            string paisPersona;
-
-            Console.Write("ingrese su nombre: ");
-            nombrePersona = Console.ReadLine();
-
-            Console.Write("ingrese su edad: ");
-            edadPersona = Convert.ToByte( Console.ReadLine() );
-
-            Console.Write("ingrese su país: ");
-            paisPersona= Console.ReadLine();
-            
-            Console.Write("nombre: " + nombrePersona + ", edad: " + edadPersona + ", pais: " + paisPersona + ".");           
-        }
-        // 3)	Realizar un procedimiento que pida al usuario los siguientes datos personales: nombre, apellido, edad y carrera; y luego muestre por pantalla los datos ingresados en una sola línea y luego en una línea por dato.
-
     }
 }
