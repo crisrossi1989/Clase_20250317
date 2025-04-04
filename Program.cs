@@ -45,7 +45,7 @@ Clase_20250317.Ejercicio4 ej4 = new Clase_20250317.Ejercicio4();
 // EJERCICIO 5)------------------------------------------------------------------------------------------------------
 // Realizar un procedimiento que permita ingresar 4 números y los muestre en el orden inverso al ingresado.
 Clase_20250317.Ejercicio5 ej5 = new Clase_20250317.Ejercicio5();
-//ej5.IngresarNumeros();
+ej5.IngresarNumeros();
 
 // EJERCICIO 6)------------------------------------------------------------------------------------------------------
 // Realizar un procedimiento que permita ingresar el alto y la base de un triángulo y muestre su área.
