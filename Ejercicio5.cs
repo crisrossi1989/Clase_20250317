@@ -11,8 +11,8 @@ namespace Clase_20250317
     {
         public void IngresarNumeros()
         {
-            int[] numeros; // Declaración de un array de enteros
-            numeros = new int[4]; // Creación de un array de 4 elementos
+            byte[] numeros; // Declaración de un array de enteros
+            numeros = new byte[4]; // Creación de un array de 4 elementos
 
             Console.Write("ingrese el 1er número: ");
             numeros[0] = Convert.ToByte(Console.ReadLine());
